@@ -10,10 +10,7 @@ jobs:
     services:
       postgres:
         image: postgres
-	environment:
-	  - POSTGRES_DB == postgres
-          - POSTGRES_USER == postgres 
-          - POSTGRES_PASSWORD ==  postgresdata/db/pg_stat_tmp/db_0.stat
+	
         ports:
         - 5432:5432
     runs-on: ubuntu-latest
